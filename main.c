@@ -4,7 +4,16 @@
 int main()
 {
     int age = 10;
-    int *pointeurSurAge = &age;
+    int *pointeur = &age;
 
-    printf("%d", *pointeurSurAge);
+    printf("%d\n", *pointeur);
+    printf("%d\n", pointeur);
+    tripleAge(pointeur);
+    printf("%d\n", *pointeur);
+}
+
+void tripleAge(int *pointeurSurAge){
+
+*pointeurSurAge *=3;
+
 }
