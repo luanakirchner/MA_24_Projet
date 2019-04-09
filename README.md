@@ -11,8 +11,8 @@ Introduction
 -------------
 
 
-Dans le cours Ma-24, il nous est demandé de réaliser un petit projet informatique avec un thème que nous avons de difficulté.  
-Pour le projet je choisi les pointeurs en langage C, réalise en Code Blocks, mon choix était basé sur mon rencontre d’une difficulté en prendre plusieurs valeurs dans une fonction et pas seulement une avec un return.  
+Dans le cours Ma-24, il nous est demandé de réaliser un petit projet informatique avec un thème que nous avons une difficulté.  
+Pour le projet j'ai choisi les pointeurs en langage C, réalise en Code Blocks, mon choix était basé sur mon rencontre d’une difficulté en prendre plusieurs valeurs dans une fonction et pas seulement une avec un return.  
 
 Les Pointeurs:
 --------------
@@ -67,6 +67,6 @@ Je sais qui il a encore beaucoup des choses à apprend sur les pointeurs, mais j
 
 **Liste de ressources pour résoudre la problématique en pointeurs**  
 
-1. Openclassroms  
+1. Pour avoir une connaissance dans les pointeurs j’utilise le site Openclassrooms. 
 https://openclassrooms.com/fr/courses/19980-apprenez-a-programmer-en-c/15417-a-lassaut-des-pointeurs  
  
