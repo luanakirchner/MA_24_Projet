@@ -3,7 +3,7 @@
  ---------------------------
 ## Pointeurs en C  
 **Luana Kirchner Bannwart**  
-**Version 1.0**  
+**Version 1.1**  
 **28.03.2019**  
 -----------------------------    
 
