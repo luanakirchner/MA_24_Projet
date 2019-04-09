@@ -1,11 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
+
+/**Auteur : Luana kirchner Bannwart
+*Version:1.1 09/04/2019
+*Mini calculatrice avec des pointerus
+*/
+
 
 void calcul(int *Choix, float *N1, float *N2, float *resultad, float *resultad_inverse);
 
 
 int main(){
 
+printf(" ---------------\n");
+printf("  calculatrice  \n");
+printf(" ---------------\n");
 int vrai = 1;
 
     while(vrai){
@@ -19,8 +30,6 @@ int vrai = 1;
         float resultad = 0;
         float resultad_inverse = 0;
         int contineur = 0;
-
-
 
         printf("\nEntrez un numero ");
         scanf("%f", &premierN1);
@@ -52,6 +61,9 @@ int vrai = 1;
 
         if (contineur==1){
             vrai=1;
+
+
+
         }
         else{
             vrai = 0;
@@ -59,6 +71,16 @@ int vrai = 1;
     }
 }
 
+/** \brief Effectue les calcules
+ *
+ * \param Choix int*
+ * \param N1 float*
+ * \param N2 float*
+ * \param resultad float*
+ * \param resultad_inverse float*
+ * \return void
+ *
+ */
 void calcul(int *Choix, float *N1, float *N2, float *resultad, float *resultad_inverse){
 
 //printf("\n%d %f %f %f\n", *Choix, *N1, *N2, *resultad); // Certifier que les pointeurs a les bonnes valeurs
@@ -79,6 +101,12 @@ void calcul(int *Choix, float *N1, float *N2, float *resultad, float *resultad_i
         case 4: *resultad = *N1 / *N2;
                 *resultad_inverse = *N2 / *N1;
                 break;
+
+        default: *resultad = 0;
+                 *resultad_inverse = 0;
+                  break;
         }
 
 }
+
+
