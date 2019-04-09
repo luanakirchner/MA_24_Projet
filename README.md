@@ -61,7 +61,7 @@ Conclusion
 -----------
 
 Les pointeurs sont très importants dans la langage C, ils peuvent faciliter la récupération des différentes valeurs et dès pouvoir les utiliser en différents fonctions.  
-Ce projet était important pour pouvoir avoir une connaissance dans mon problème rencontres avant.
+Ce projet était important pour pouvoir avoir une connaissance dans mon problème rencontré avant.
 Je sais qui il a encore beaucoup des choses à apprend sur les pointeurs, mais j’ai déjà une base pour poursuive mon apprentissage et avance chaque fois plus.    
 
 
