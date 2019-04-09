@@ -13,6 +13,7 @@ Introduction
 
 Dans le cours Ma-24, il nous est demandé de réaliser un petit projet informatique avec un thème que nous avons une difficulté.  
 Pour le projet j'ai choisi les pointeurs en langage C, réalise en Code Blocks, mon choix était basé sur mon rencontre d’une difficulté en prendre plusieurs valeurs dans une fonction et pas seulement une avec un return.  
+Pour comprendre l’utilisations des pointeurs j’ai réalisé une mini calculatrice, avec division, soustraction, multiplication et addition .
 
 Les Pointeurs:
 --------------
@@ -47,7 +48,7 @@ Pour realiser le projet, j'ai réalisé différents étapes qui étaient comité
 |Calculation with pointers, within a function | Dans cette commit j’ai réalisé plusieurs tests avec des calculs entre deux pointeurs, et différentes manières de placer un pointeur dans une fonction.     |
 | Test: value entered by user, retrieved on a pointer | Dans cette partie j’ai essayé de récupérer des valeurs entrer par l’utilisateur pour l’indiquer dans un pointeurs.       | 
 | First try of a calculator :  | Dans cette commit J'ai effectué des calculs entre deux pointeurs, (avec des valeurs entrer par l’utilisateur) Multiplication, addition, soustraction.       | 
-| Calculation with comma :  | Dans cette partie j’ai ajouté la division comme chois pour calculer, à cause de ça j’ai dû changer les valeurs int des variables à floot.         | 
+| Calculation with comma :  | Dans cette partie j’ai ajouté la division comme choix pour calculer, à cause de ça j’ai dû changer les valeurs int des variables à floot.         | 
 | Finished Calculator | J’ai effectué quelques commentaires dans le code, aussi des boucles pour que l’utilisateur puisse répéter l’opération.      | 
 | Version 1.1 | J’ai effectué quelques modifications pour l’amélioration du code, mais n’en changent pas sa fonctionnalité          | 
 
